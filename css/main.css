@@ -112,7 +112,6 @@ nav ul li:hover {
   font-size: 1.2rem;
   font-family: "Source Code Pro", monospace;
   font-weight: 300;
-  letter-spacing: 0.5px;
 }
 
 .next-section-btn {
@@ -134,8 +133,11 @@ nav ul li:hover {
 }
 
 /* ABOUT-US SECTİON */
+.about-us-container{
+    height: 100%;
+    padding: 3rem 0;
+}
 .about-us {
-  height: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -163,5 +165,4 @@ nav ul li:hover {
   font-family: "Source Code Pro", monospace;
   font-weight: 300;
   text-align: right;
-  letter-spacing: 0.5px;
 }
