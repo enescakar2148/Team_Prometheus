@@ -61,19 +61,20 @@ nav ul li:hover {
   display: flex;
   justify-content: center;
 }
-.btn-contact{
-    margin: 0 .5rem;
-    border-radius: 10px;
-    border: 1px solid #174269;
-    background-color: #fff;
-    padding: .75rem;
-    transition: 0.3s;
-    cursor: pointer;
+
+.btn-contact {
+  margin: 0 0.5rem;
+  border-radius: 10px;
+  border: 1px solid #174269;
+  background-color: #fff;
+  padding: 0.75rem;
+  transition: 0.3s;
+  cursor: pointer;
 }
-.btn-contact:hover{
-    background-color: var(--main-bg-color);
-    color: #fff;
-    transition: 0.3s;
+.btn-contact:hover {
+  background-color: var(--main-bg-color);
+  color: #fff;
+  transition: 0.3s;
 }
 /* a */
 a {
@@ -82,8 +83,8 @@ a {
 }
 
 /* textarea */
-textarea{
-    resize:none;
+textarea {
+  resize: none;
 }
 
 /* section */
